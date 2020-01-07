@@ -70,24 +70,17 @@
 
 
 
-    <title>Hello, world!</title>
+    <title></title>
   </head>
   <body>
-    <ul class="nav justify-content-end">
-      <li class="nav-item p-3">
-        <button type="button" class="btn btn-primary">Order</button>
-        
-      </li>
-      <!-- <li class="nav-item">
-        <img src="<?php echo base_url(); ?>/img/close.jpg" >
-      </li> -->
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li> -->
-    </ul>
+    <nav class="navbar navbar-dark bg-white">
+      <a class="navbar-brand">
+        <img src="<?php echo base_url(); ?>/img/delete.png" width="20">
+      </a>
+      <form class="form-inline my-2 my-lg-0">
+        <a href=""><button type="button" class="btn btn-primary">Order</button></a> 
+        </form>
+    </nav>
 		<!-- <div class="box bottom"></div> -->
       <hr>
     <center>
