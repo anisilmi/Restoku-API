@@ -37,3 +37,6 @@ if(($('#id_a').val())){
 
     })
 }
+$('#notif').click(function(){
+    $('#navbarSupportedContent-5').show();
+})
