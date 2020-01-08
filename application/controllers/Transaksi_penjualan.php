@@ -9,12 +9,12 @@ class Transaksi_penjualan extends CI_Controller{
        //$id = $this->load->get('id');
        $idbr['hasi'] = ['id'=>$id
        ];
-       $this->load->view('view_transaksi',$idbr);
+       $this->load->view('viewTransaksi',$idbr);
     }
 
     function rate()
     {
-      $this->load->view('halaman_customer');
+      $this->load->view('viewHalamanCustomer');
     }
 }
 
