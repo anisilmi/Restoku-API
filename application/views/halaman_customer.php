@@ -9,67 +9,6 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="<?=base_url("sipp.css")?>">
-    <!-- MANUAL CSS -->
-     <!-- <style>                                                "PINDAH KE BASE_URL"
-       hr {
-        border:none;
-        height: 20px;
-        width: 100%;
-        height: 50px;
-        margin-top: 0;
-        border-bottom: 0px solid #1f1209;
-        box-shadow: 0 20px 10px -20px #333;
-        margin: -50px auto 10px; 
-      } 
-      /* .full {
-        color: red;
-      }
-
-      .rating-love {
-        position: relative;
-        display:inline-block;
-      }
-
-      .rate {
-        white-space: nowrap;
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 2;
-      } */
-
-      /* Rating Star Widgets Style */
-      .rating-hearts ul {
-        list-style-type:none;
-        padding:0;
-        
-        -moz-user-select:none;
-        -webkit-user-select:none;
-      }
-      .rating-hearts ul > li.heart {
-        display:inline-block;
-        
-      }
-
-      /* Idle State of the stars */
-      .rating-hearts ul > li.heart > i.fa {
-        border-color:#fa1111;
-        font-size:2.5em; /* Change the size of the stars */
-        color:#ccc;  /*Color on idle state */
-      }
-      .rating-hearts ul > li.heart > i.fa-heart {
-        outline-color:#fa1111;
-      }
-      /* Selected state of the stars */
-      .rating-hearts ul > li.heart.selected > i.fa {
-        color:#fa1111;
-      }
-
-		</style> -->
-
-
-
     <title></title>
   </head>
   <body>
@@ -97,19 +36,7 @@
         </div>
       </div>
       <section class='rating-widget'>
-        <div class="rating-heart text-center">
-          <!-- <span class="fa fa-heart"></span>
-          <span class="fa fa-heart "></span>
-          <span class="fa fa-heart"></span>
-          <span class="fa fa-heart"></span>
-          <span class="fa fa-heart"></span>
-          <span class="rate" style="width:50%;"> change this value for 0 to 100
-          <span class="fa fa-heart full"></span>
-          <span class="fa fa-heart full"></span>
-          <span class="fa fa-heart full"></span>
-          <span class="fa fa-heart full"></span>
-          <span class="fa fa-heart full"></span> -->
-          
+        <div class="rating-heart text-center">         
           <ul id='hearts'> 
             <li class='heart ' data-value='1'>
             <i class='fa fa-heart fa-fw'></i>
@@ -127,25 +54,6 @@
             <i class='fa fa-heart fa-fw'></i>
             </li>
           </ul>
-
-          <!-- <ul id='hearts'>
-            <span class='heart' data-value='1'>
-            <i class='fa fa-heart fa-fw'></i>
-            </span>
-            <span class='heart' data-value='2'>
-            <i class='fa fa-heart fa-fw'></i>
-            </span>
-            <span class='heart' data-value='3'>
-            <i class='fa fa-heart fa-fw'></i>
-            </span>
-            <span class='heart' data-value='4'>
-            <i class='fa fa-heart fa-fw'></i>
-            </span>
-            <span class='heart' data-value='5'>
-            <i class='fa fa-heart fa-fw'></i>
-            </span>
-          </ul> -->
-
         </div>
         </section>
       <br>
