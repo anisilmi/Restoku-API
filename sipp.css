@@ -9,11 +9,9 @@ hr {
     margin: -50px auto 10px; 
   }
   
-/* Rating Star Widgets Style */
 ul#hearts {
     list-style-type:none;
-    padding:0;
-    
+    padding:0;   
     -moz-user-select:none;
     -webkit-user-select:none;
   }
@@ -23,14 +21,10 @@ ul#hearts li{
   }
 
 ul#hearts li.heart i.fa {
-    font-size:2em; /* Change the size of the stars */
-    color:#ccc;  /*Color on idle state */
+    font-size:2em;
+    color:#ccc;
   }
 
-ul#hearts li.heart.selected i.fa {
-    color:#fa1111;
-  } 
-
 ul#hearts li.heart.hover i.fa {
-    color:rgb(241, 133, 32);
+    color:#fa1111;
   }
