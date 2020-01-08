@@ -17,30 +17,20 @@ ul#hearts {
     -moz-user-select:none;
     -webkit-user-select:none;
   }
-  /* .rating-hearts ul > li.heart {
-    display:inline-block;
-    
-  } */
-  ul#hearts li{
-  /* .rating-hearts ul > li.heart{ */
+
+ul#hearts li{
     display:inline-block;
   }
 
-  /* Idle State of the stars */
-  ul#hearts li.heart i.fa {
-    /* border-color:#fa1111; */
+ul#hearts li.heart i.fa {
     font-size:2em; /* Change the size of the stars */
     color:#ccc;  /*Color on idle state */
   }
 
-  /* ul#hearts li.heart i.fa-heart {
-    outline-color:#fa1111;
-  } */
-  /* Selected state of the stars */
-  ul#hearts li.heart.selected i.fa {
+ul#hearts li.heart.selected i.fa {
     color:#fa1111;
   } 
-  
-  ul#hearts li.heart.hover i.fa {
+
+ul#hearts li.heart.hover i.fa {
     color:rgb(241, 133, 32);
   }
