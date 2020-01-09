@@ -5,50 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
-    <style>
-    body {margin:0;}
-
-    .bawah {
-      overflow: hidden;
-      background-color: white;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-
-    .bawah a {
-      float: left;
-      display: block;
-      /* color: #f2f2f2; */
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-
-    .bawah a:hover {
-      background: #ddd;
-      color: black;
-    }
-
-    .main {
-      /* padding: 16px; */
-      margin-bottom: 30px;
-      height: auto; /* Used in this example to enable scrolling */
-    }
-    </style>
-    <title>restoku</title>
-
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>/css/main.css">
+    <title>Transaksi Display</title>
 </head>
 <body>
 <div style="background-color:#FBFBFB">
     <!-- <div class="navbar"> -->
     <nav class="navbar navbar-dark bg-primary shadow-sm p-2 my-1 rounded mx-1">
-      <a class="navbar-brand">
+      <a class="navbar-brand ml-1">
         <img src="<?php echo base_url(); ?>/img/LogoPutih.png" width="120" height="30">
       </a>
-        <form class="form-inline my-2 my-lg-0">
+        <form class="form-inline my-2 my-lg-0 mr-1">
           <img  id="notif" src="<?php echo base_url(); ?>/img/motificationa.png" width="25"> 
         </form>
     </nav>
@@ -110,7 +77,7 @@
     src="https://code.jquery.com/jquery-3.4.1.js"
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
-      <script src="<?=base_url('main.js')?>">
+      <script src="<?=base_url()?>/js/main.js">
         </script>
 </body>
 </html>
