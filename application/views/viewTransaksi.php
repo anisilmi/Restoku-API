@@ -110,7 +110,7 @@
     src="https://code.jquery.com/jquery-3.4.1.js"
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
-      <script src="<?=base_url('transaksi.js')?>">
+      <script src="<?=base_url('main.js')?>">
         </script>
 </body>
 </html>
